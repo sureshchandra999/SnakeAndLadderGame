@@ -1,6 +1,13 @@
 package com.suresh.models;
 
+/**
+ * BoardEntity class is an abstract class which is parent class for Snake and Ladder classes.
+ * It has two instance variables start and end.
+ */
+
 public abstract class BoardEntity {
+
+//instance variables
     int start;
     int end;
 
