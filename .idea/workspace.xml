@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2afa663-a855-42e7-8d35-507137d2df3f" name="Changes" comment="first commit of SnakeAndLadderGame">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suresh/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suresh/models/Player.java" afterDir="false" />
+    <list default="true" id="f2afa663-a855-42e7-8d35-507137d2df3f" name="Changes" comment="second commit of SnakeAndLadderGame">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suresh/utility/DiceUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/suresh/utility/DiceUtilityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/suresh/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suresh/models/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,62 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.DiceUtilityTest.testRollDiceWithOneDice">
+    <configuration name="DiceUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeAndLadderGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suresh.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suresh.utility" />
+      <option name="MAIN_CLASS_NAME" value="com.suresh.utility.DiceUtilityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiceUtilityTest.testRollDiceWithMultipleDices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeAndLadderGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suresh.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suresh.utility" />
+      <option name="MAIN_CLASS_NAME" value="com.suresh.utility.DiceUtilityTest" />
+      <option name="METHOD_NAME" value="testRollDiceWithMultipleDices" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiceUtilityTest.testRollDiceWithOneDice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SnakeAndLadderGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suresh.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suresh.utility" />
+      <option name="MAIN_CLASS_NAME" value="com.suresh.utility.DiceUtilityTest" />
+      <option name="METHOD_NAME" value="testRollDiceWithOneDice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DiceUtilityTest.testRollDiceWithOneDice" />
+        <item itemvalue="JUnit.DiceUtilityTest.testRollDiceWithMultipleDices" />
+        <item itemvalue="JUnit.DiceUtilityTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730826108669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit of SnakeAndLadderGame">
+      <created>1730826730763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730826730763</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +138,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit of SnakeAndLadderGame" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit of SnakeAndLadderGame" />
+    <MESSAGE value="second commit of SnakeAndLadderGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit of SnakeAndLadderGame" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suresh/utility/DiceUtility.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/suresh/utility/DiceUtilityTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

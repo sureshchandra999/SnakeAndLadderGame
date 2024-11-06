@@ -14,18 +14,32 @@ public class Board {
 
         boardEntities = new HashMap<>();
         //initialize n snakes and n ladders
-        for (int i = 1; i < dimension; i++) {
+
+       /* for (int i = 1; i < dimension; i++) {
             boardEntities.put(i, new Snake(i, i - 1));
             i++;
             if (i < dimension) {
                 boardEntities.put(i, new Ladder(i, i + 1));
             }
+        }*/
+    }
+
+    private void addSSnakes(){
+        for (int i = 1; i < dimension; i++) {
+            int min =2;
+            int cellCount = 0;//
+            int max=cellCount-1;//10
+            boardEntities.put(i, new Snake(i, i - 1));
+            i++;
         }
     }
 
 
 
 
+    private boolean hasSnakeOrLadder(int index) {
+        return boardEntities.containsKey(index);
+        }
 
 
     //getter and setter methods
