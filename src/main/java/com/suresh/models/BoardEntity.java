@@ -10,6 +10,7 @@ public abstract class BoardEntity {
 //instance variables
     int start;
     int end;
+    BoardEntityType boardEntityType;
 
     //constructor
     public BoardEntity(int start, int end) {
@@ -31,4 +32,11 @@ public abstract class BoardEntity {
         this.end = end;
     }
 
+    public BoardEntityType getBoardEntityType() {
+        return boardEntityType;
+    }
+
+    public void setBoardEntityType(BoardEntityType boardEntityType) {
+        this.boardEntityType = boardEntityType;
+    }
 }
